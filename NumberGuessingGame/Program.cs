@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -6,29 +6,53 @@ class Program
     {
         Random random = new Random();
         bool playAgain = true;
-        int min = 1;
-        int max = 100;
-        int guess;
-        int number;
-        int guesses;
-        string response;
 
         while (playAgain)
         {
-            guess = 0;
-            guesses = 0;
-            number = random.Next(min, max + 1);
-            response = "";
+            // Ask user to choose difficulty:
+            Console.WriteLine("Choose difficulty: (E)asy, (M)edium, (H)ard");
+            string choice = Console.ReadLine() ?? "M";
+            choice = choice.ToUpper();
 
-            Console.Clear(); // ✅ Clears previous text for a fresh round
+            int min = 1;
+            int maxNumber;
+            int maxAttempts;
+
+            if (choice == "E")
+            {
+                maxNumber = 50;
+                maxAttempts = 10;
+            }
+            else if (choice == "H")
+            {
+                maxNumber = 200;
+                maxAttempts = 5;
+            }
+            else // default to medium
+            {
+                maxNumber = 100;
+                maxAttempts = 7;
+            }
+
+            int guess = 0;
+            int guesses = 0;
+            int max = maxNumber;
+            int number = random.Next(min, max + 1);
+
+            Console.Clear();
             Console.WriteLine("=== NUMBER GUESSING GAME ===");
-            Console.WriteLine($"Guess the number between {min} and {max}!");
+            Console.WriteLine($"Difficulty: {choice}. Guess the number between {min} and {max}! You have {maxAttempts} attempts.");
 
-            // Loop for guessing
-            while (guess != number)
+            while (guess != number && guesses < maxAttempts)
             {
                 Console.Write("Enter your guess: ");
-                guess = Convert.ToInt32(Console.ReadLine());
+                string? input = Console.ReadLine();
+                if (!int.TryParse(input, out guess))
+                {
+                    Console.WriteLine("Please enter a valid integer.");
+                    continue;
+                }
+
                 guesses++;
 
                 if (guess > number)
@@ -39,12 +63,16 @@ class Program
                     Console.WriteLine($"🎉 Correct! You guessed it in {guesses} attempt(s).");
             }
 
+            if (guess != number)
+                Console.WriteLine($"Out of attempts! The number was {number}.");
+
             Console.WriteLine();
             Console.Write("Would you like to play again? (Y/N): ");
-            response = Console.ReadLine()!;
+            string response = Console.ReadLine() ?? "";
             response = response.ToUpper();
-
             playAgain = (response == "Y");
+
+            Console.Clear();
         }
 
         Console.WriteLine("\nThanks for playing! Goodbye 👋");
