@@ -6,22 +6,6 @@ class Program
     {
         Random random = new Random();
         bool playAgain = true;
-           // Easy Mode
-       int maxNumber = 50;
-       int maxAttempts = 10;
-
-             // Medium Mode
-        int maxNumber = 100;
-        int maxAttempts = 7;
-
-            // Hard Mode
-        int maxNumber = 200;
-        int maxAttempts = 5;
-        
-        int guess;
-        int number;
-        int guesses;
-        string response;
 
         while (playAgain)
         {
@@ -72,11 +56,11 @@ class Program
                 guesses++;
 
                 if (guess > number)
-                    Console.WriteLine("Too high! Go lower.");
+                    Console.WriteLine("Too high! Try again.");
                 else if (guess < number)
-                    Console.WriteLine("Too low! Aim higher.");
+                    Console.WriteLine("Too low! Try again.");
                 else
-                    Console.WriteLine($"Wow🎉 Correct! You win! You guessed it in {guesses} attempt(s).");
+                    Console.WriteLine($"🎉 Correct! You guessed it in {guesses} attempt(s).");
             }
 
             if (guess != number)
@@ -93,5 +77,4 @@ class Program
 
         Console.WriteLine("\nThanks for playing! Goodbye 👋");
     }
-
 }
