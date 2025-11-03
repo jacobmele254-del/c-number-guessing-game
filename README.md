@@ -256,7 +256,6 @@ NumberGuessingGame/
 | `README.md` | Documentation (this file) |
 | `LICENSE` | MIT License for open-source distribution |
 
----
 
 ## 🔧 Troubleshooting
 
