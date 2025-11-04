@@ -1,4 +1,4 @@
-#### 🎮 Number Guessing Game
+###  Number Guessing Game 🎮
 
 A simple yet engaging console-based game designed to help beginners learn the fundamentals of C# programming. Challenge yourself to guess the computer's secret number within a limited number of attempts!
 
