@@ -1,9 +1,10 @@
-### Number Guessing Game 🎮
+## NUMBER GUESSING GAME
 
 A simple yet engaging console-based game designed to help beginners learn the fundamentals of C# programming. Challenge yourself to guess the computer's secret number within a limited number of attempts!
 
 
 ## 📋 Table of Contents
+
 About the Project
 Key Features
 Technologies Used
@@ -17,6 +18,7 @@ Troubleshooting
 Learning Objectives
 Contributing
 License
+
 
 # 📖 About the Project
 The Number Guessing Game is an interactive console application where the computer randomly selects a secret number within a specified range, and the player attempts to guess it correctly. With each guess, the game provides feedback (too high or too low) to guide the player toward the correct answer.
@@ -77,21 +79,21 @@ Graceful exit option
 TechnologyPurposeC#Primary programming language.NET SDKRuntime framework and development kitVisual Studio CodeRecommended code editor (or Visual Studio 2022)Console ApplicationInteractive terminal-based interface
 
 ## 💻 System Requirements
-# [For Windows]
+# For Windows
 
 OS: Windows 10 or later (64-bit)
 RAM: Minimum 4 GB (8 GB recommended)
 Disk Space: At least 1–2 GB free for SDK and dependencies
 Additional: Windows Terminal or Command Prompt
 
-# [For macOS]
+# For macOS
 
 OS: macOS 10.15 (Catalina) or later
 RAM: Minimum 4 GB (8 GB recommended)
 Disk Space: At least 1–2 GB free
 Additional: Terminal access
 
-# [For Linux]
+# For Linux
 
 OS: Supported distributions (Ubuntu 20.04+, Fedora, Debian, etc.)
 RAM: Minimum 4 GB (8 GB recommended)
