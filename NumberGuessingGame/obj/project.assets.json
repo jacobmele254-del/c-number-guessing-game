@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game-1\\NumberGuessingGame\\NumberGuessingGame.csproj",
+      "projectUniqueName": "c:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game\\NumberGuessingGame\\NumberGuessingGame.csproj",
       "projectName": "NumberGuessingGame",
-      "projectPath": "C:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game-1\\NumberGuessingGame\\NumberGuessingGame.csproj",
+      "projectPath": "c:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game\\NumberGuessingGame\\NumberGuessingGame.csproj",
       "packagesPath": "C:\\Users\\AFANDE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game-1\\NumberGuessingGame\\obj\\",
+      "outputPath": "c:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game\\NumberGuessingGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AFANDE\\AppData\\Roaming\\NuGet\\NuGet.Config"
