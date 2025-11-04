@@ -1,10 +1,9 @@
-##🎮 Number Guessing Game
+### 🎮 Number Guessing Game
 
 A simple yet engaging console-based game designed to help beginners learn the fundamentals of C# programming. Challenge yourself to guess the computer's secret number within a limited number of attempts!
 
-📋 Table of Contents
-
-About the Project
+## 📋 Table of Contents
+About the project
 Key Features
 Technologies Used
 System Requirements
@@ -19,7 +18,7 @@ Contributing
 License
 
 
-📖 About the Project
+# 📖 About the Project
 The Number Guessing Game is an interactive console application where the computer randomly selects a secret number within a specified range, and the player attempts to guess it correctly. With each guess, the game provides feedback (too high or too low) to guide the player toward the correct answer.
 This project is perfect for:
 
@@ -37,62 +36,62 @@ Random number generation
 Game logic and control flow
 
 
-✨ Key Features
+## ✨ Key Features
 🎲 Random Number Generation
 
 Computer generates a random secret number within configurable ranges
 Uses C#'s Random class for unpredictable gameplay
 
-🎯 Difficulty Levels
+# 🎯 Difficulty Levels
 
 Easy Mode: 1-50 range, 10 attempts
 Medium Mode: 1-100 range, 7 attempts
 Hard Mode: 1-200 range, 5 attempts
 
-💬 User Guess Input
+# 💬 User Guess Input
 
 Interactive console-based input
 Input validation to prevent crashes
 Clear prompts and user-friendly interface
 
-📊 Feedback System
+# 📊 Feedback System
 
 Real-time feedback: "Too high!" or "Too low!"
 Attempt counter to track progress
 Proximity hints for close guesses (optional)
 
-🏆 Score Tracking
+# 🏆 Score Tracking
 
 Tracks number of attempts per round
 Records best score (fewest attempts)
 Displays win/loss statistics
 
-🔄 Replay Option
+# 🔄 Replay Option
 
 Play multiple rounds without restarting
 Cumulative score tracking across sessions
 Graceful exit option
 
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 TechnologyPurposeC#Primary programming language.NET SDKRuntime framework and development kitVisual Studio CodeRecommended code editor (or Visual Studio 2022)Console ApplicationInteractive terminal-based interface
 
-💻 System Requirements
-For Windows
+## 💻 System Requirements
+# [For Windows]
 
 OS: Windows 10 or later (64-bit)
 RAM: Minimum 4 GB (8 GB recommended)
 Disk Space: At least 1–2 GB free for SDK and dependencies
 Additional: Windows Terminal or Command Prompt
 
-For macOS
+# [For macOS]
 
 OS: macOS 10.15 (Catalina) or later
 RAM: Minimum 4 GB (8 GB recommended)
 Disk Space: At least 1–2 GB free
 Additional: Terminal access
 
-For Linux
+# [For Linux]
 
 OS: Supported distributions (Ubuntu 20.04+, Fedora, Debian, etc.)
 RAM: Minimum 4 GB (8 GB recommended)
@@ -100,8 +99,8 @@ Disk Space: At least 1–2 GB free
 Additional: Bash or terminal access for dotnet commands
 
 
-📥 Installation
-Step 1: Install .NET SDK
+## 📥 Installation
+# Step 1: Install .NET SDK
 Windows
 
 Visit https://dotnet.microsoft.com/download
@@ -123,23 +122,23 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install -y dotnet-sdk-8.0
 dotnet --version
-Step 2: Install Visual Studio Code (Optional but Recommended)
+# Step 2: Install Visual Studio Code (Optional but Recommended)
 
 Download from https://code.visualstudio.com/
 Install the C# Dev Kit extension from the Extensions marketplace
 
-Step 3: Clone or Download the Project
+# Step 3: Clone or Download the Project
 Option A: Clone via Git
 bashgit clone https://github.com/yourusername/number-guessing-game.git
 cd number-guessing-game
 Option B: Download ZIP
 
-Download the project as a ZIP file
+## Download the project as a ZIP file
 Extract to your desired location
 Navigate to the project folder in terminal
 
 
-🚀 How to Run
+## 🚀 How to Run
 Using Command Line / Terminal
 
 Navigate to the project directory:
@@ -162,15 +161,15 @@ Press F5 or click the Start button
 The console window will appear
 
 
-🎮 How to Play
+## 🎮 How to Play
 Game Flow
 
-Launch the Game
+# Launch the Game
 
    === NUMBER GUESSING GAME ===
    Welcome! Can you guess my secret number?
 
-Choose Difficulty
+# Choose Difficulty
 
    Select difficulty:
    1. Easy (1-50, 10 attempts)
@@ -179,7 +178,7 @@ Choose Difficulty
    
    Your choice: 2
 
-Make Your Guesses
+# Make Your Guesses
 
    I'm thinking of a number between 1 and 100
    You have 7 attempts remaining.
@@ -203,7 +202,7 @@ Use binary search strategy: eliminate half the possibilities each guess
 Pay attention to feedback to narrow down the range
 Track your best score and try to beat it!
 
-📁 Project Structure
+## 📁 Project Structure
 NumberGuessingGame/
 │
 ├── Program.cs                 # Main game logic
@@ -217,10 +216,10 @@ NumberGuessingGame/
 │
 └── obj/                       # Build artifacts (generated)
     └── ...
-Key Files Explained
+## Key Files Explained
 FilePurposeProgram.csContains the main game logic, including loops, conditionals, and user input handlingNumberGuessingGame.csprojProject metadata and dependencies configurationREADME.mdDocumentation LICENSEMIT License for open-source distribution
 
-🔧 Troubleshooting
+## 🔧 Troubleshooting
 Issue: "dotnet: command not found"
 Solution:
 
@@ -239,4 +238,4 @@ Solution:
 The game includes input validation with int.TryParse()
 If crashes persist, ensure you're using the latest version with error handling:
 
-Happy Coding! 🚀
+# Happy Coding! 🚀
