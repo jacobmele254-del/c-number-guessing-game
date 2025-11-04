@@ -1,9 +1,10 @@
-###  Number Guessing Game 🎮
+### Number Guessing Game 🎮
 
 A simple yet engaging console-based game designed to help beginners learn the fundamentals of C# programming. Challenge yourself to guess the computer's secret number within a limited number of attempts!
 
+
 ## 📋 Table of Contents
-About the project
+About the Project
 Key Features
 Technologies Used
 System Requirements
@@ -16,7 +17,6 @@ Troubleshooting
 Learning Objectives
 Contributing
 License
-
 
 # 📖 About the Project
 The Number Guessing Game is an interactive console application where the computer randomly selects a secret number within a specified range, and the player attempts to guess it correctly. With each guess, the game provides feedback (too high or too low) to guide the player toward the correct answer.
