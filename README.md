@@ -42,31 +42,31 @@ Game logic and control flow
 Computer generates a random secret number within configurable ranges
 Uses C#'s Random class for unpredictable gameplay
 
-# 🎯 Difficulty Levels
+ 🎯 Difficulty Levels
 
 Easy Mode: 1-50 range, 10 attempts
 Medium Mode: 1-100 range, 7 attempts
 Hard Mode: 1-200 range, 5 attempts
 
-# 💬 User Guess Input
+ 💬 User Guess Input
 
 Interactive console-based input
 Input validation to prevent crashes
 Clear prompts and user-friendly interface
 
-# 📊 Feedback System
+ 📊 Feedback System
 
 Real-time feedback: "Too high!" or "Too low!"
 Attempt counter to track progress
 Proximity hints for close guesses (optional)
 
-# 🏆 Score Tracking
+ 🏆 Score Tracking
 
 Tracks number of attempts per round
 Records best score (fewest attempts)
 Displays win/loss statistics
 
-# 🔄 Replay Option
+ 🔄 Replay Option
 
 Play multiple rounds without restarting
 Cumulative score tracking across sessions
