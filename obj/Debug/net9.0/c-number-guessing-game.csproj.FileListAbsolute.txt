@@ -1,0 +1,15 @@
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\bin\Debug\net9.0\c-number-guessing-game.exe
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\bin\Debug\net9.0\c-number-guessing-game.deps.json
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\bin\Debug\net9.0\c-number-guessing-game.runtimeconfig.json
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\bin\Debug\net9.0\c-number-guessing-game.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\bin\Debug\net9.0\c-number-guessing-game.pdb
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.AssemblyInfoInputs.cache
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.AssemblyInfo.cs
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.csproj.CoreCompileInputs.cache
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.sourcelink.json
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\refint\c-number-guessing-game.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.pdb
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\c-number-guessing-game.genruntimeconfig.cache
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game\obj\Debug\net9.0\ref\c-number-guessing-game.dll

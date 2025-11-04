@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "c-number-guessing-game/1.0.0": {
+        "runtime": {
+          "c-number-guessing-game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "c-number-guessing-game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
