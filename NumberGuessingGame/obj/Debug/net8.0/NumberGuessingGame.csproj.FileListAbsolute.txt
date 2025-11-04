@@ -13,3 +13,18 @@
 /workspaces/c-number-guessing-game/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.pdb
 /workspaces/c-number-guessing-game/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.genruntimeconfig.cache
 /workspaces/c-number-guessing-game/NumberGuessingGame/obj/Debug/net8.0/ref/NumberGuessingGame.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\bin\Debug\net8.0\NumberGuessingGame.exe
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\bin\Debug\net8.0\NumberGuessingGame.deps.json
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\bin\Debug\net8.0\NumberGuessingGame.runtimeconfig.json
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\bin\Debug\net8.0\NumberGuessingGame.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\bin\Debug\net8.0\NumberGuessingGame.pdb
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.AssemblyInfoInputs.cache
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.AssemblyInfo.cs
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.sourcelink.json
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\refint\NumberGuessingGame.dll
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.pdb
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\NumberGuessingGame.genruntimeconfig.cache
+C:\Users\AFANDE\Documents\number game project1\c-number-guessing-game-1\NumberGuessingGame\obj\Debug\net8.0\ref\NumberGuessingGame.dll

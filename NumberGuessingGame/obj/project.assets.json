@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\AFANDE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/c-number-guessing-game/NumberGuessingGame/NumberGuessingGame.csproj",
+      "projectUniqueName": "C:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game-1\\NumberGuessingGame\\NumberGuessingGame.csproj",
       "projectName": "NumberGuessingGame",
-      "projectPath": "/workspaces/c-number-guessing-game/NumberGuessingGame/NumberGuessingGame.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/c-number-guessing-game/NumberGuessingGame/obj/",
+      "projectPath": "C:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game-1\\NumberGuessingGame\\NumberGuessingGame.csproj",
+      "packagesPath": "C:\\Users\\AFANDE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AFANDE\\Documents\\number game project1\\c-number-guessing-game-1\\NumberGuessingGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\AFANDE\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
